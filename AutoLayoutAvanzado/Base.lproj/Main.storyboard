@@ -36,59 +36,66 @@
                                 <rect key="frame" x="16" y="104" width="382" height="742"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo7-Ga-FDB">
-                                        <rect key="frame" x="0.0" y="0.0" width="382" height="93"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="82.5"/>
                                         <state key="normal" title="Constraints de posicion"/>
                                         <connections>
                                             <segue destination="cZi-eh-vH6" kind="show" id="hDv-52-lX5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtQ-Pt-j49">
-                                        <rect key="frame" x="0.0" y="93" width="382" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="82.5" width="382" height="82.5"/>
                                         <state key="normal" title="Constraints de Altura y Anchura"/>
                                         <connections>
                                             <segue destination="ykm-Nr-ktR" kind="show" id="Sv0-LW-1x3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NK2-83-E3b">
-                                        <rect key="frame" x="0.0" y="185.5" width="382" height="93"/>
+                                        <rect key="frame" x="0.0" y="165" width="382" height="82.5"/>
                                         <state key="normal" title="Modificar Constraints por codigo"/>
                                         <connections>
                                             <segue destination="pJz-NB-OJc" kind="show" id="mdU-n7-Mt2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDD-4J-ob7">
-                                        <rect key="frame" x="0.0" y="278.5" width="382" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="247.5" width="382" height="82.5"/>
                                         <state key="normal" title="Crear constraints por codigo"/>
                                         <connections>
                                             <segue destination="arE-mu-6fU" kind="show" id="55q-9Z-gDR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNp-re-uiw">
-                                        <rect key="frame" x="0.0" y="371" width="382" height="93"/>
+                                        <rect key="frame" x="0.0" y="330" width="382" height="82"/>
                                         <state key="normal" title="Constraints de igual entre elementos"/>
                                         <connections>
                                             <segue destination="id0-kb-fEj" kind="show" id="Dcf-o3-GTP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5b-Nd-Chg">
-                                        <rect key="frame" x="0.0" y="464" width="382" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="412" width="382" height="82.5"/>
                                         <state key="normal" title="Constraints de proporción"/>
                                         <connections>
                                             <segue destination="MO7-BS-R9j" kind="show" id="cal-ab-PnH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfj-JL-Z5B">
-                                        <rect key="frame" x="0.0" y="556.5" width="382" height="93"/>
+                                        <rect key="frame" x="0.0" y="494.5" width="382" height="82.5"/>
                                         <state key="normal" title="Constraints de centrado"/>
                                         <connections>
                                             <segue destination="SuB-12-vTb" kind="show" id="OuB-Z0-Wcn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmp-WP-XKw">
-                                        <rect key="frame" x="0.0" y="649.5" width="382" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="577" width="382" height="82.5"/>
                                         <state key="normal" title="Constraints de Alineacion relativa"/>
                                         <connections>
                                             <segue destination="XoE-u6-hYC" kind="show" id="PBu-Uy-8yi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrS-Ht-APL">
+                                        <rect key="frame" x="0.0" y="659.5" width="382" height="82.5"/>
+                                        <state key="normal" title="Hugging, Compresion y Priority"/>
+                                        <connections>
+                                            <segue destination="p7j-hi-0j3" kind="show" id="R2F-Au-KtE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -239,6 +246,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24R-yO-Y9G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2293" y="881"/>
+        </scene>
+        <!--Huggin, Compresion y Priority-->
+        <scene sceneID="KBm-lq-aKf">
+            <objects>
+                <viewController title="Huggin, Compresion y Priority" id="p7j-hi-0j3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nng-l4-CGa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="First Large Large Large Large Large Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tu7-3B-lL9">
+                                <rect key="frame" x="16" y="104" width="261.5" height="50"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xvg-ra-T3V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMX-ZV-xUJ">
+                                <rect key="frame" x="293.5" y="104" width="104.5" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hm3-A3-9km"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pim-GB-0Bg">
+                                <rect key="frame" x="16" y="170" width="382" height="200"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4Ud-Le-tPl"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccH-mf-n0h">
+                                <rect key="frame" x="16" y="646" width="382" height="200"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Uyx-Zx-dlF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bpm-EY-LxJ" firstAttribute="bottom" secondItem="ccH-mf-n0h" secondAttribute="bottom" constant="16" id="4Z8-L4-4ua"/>
+                            <constraint firstItem="ccH-mf-n0h" firstAttribute="leading" secondItem="bpm-EY-LxJ" secondAttribute="leading" constant="16" id="4lJ-Bd-r1x"/>
+                            <constraint firstItem="fMX-ZV-xUJ" firstAttribute="leading" secondItem="Tu7-3B-lL9" secondAttribute="trailing" constant="16" id="CUy-9p-y0y"/>
+                            <constraint firstItem="Pim-GB-0Bg" firstAttribute="leading" secondItem="bpm-EY-LxJ" secondAttribute="leading" constant="16" id="GuA-F7-DDd"/>
+                            <constraint firstItem="bpm-EY-LxJ" firstAttribute="trailing" secondItem="ccH-mf-n0h" secondAttribute="trailing" constant="16" id="Ihy-dE-mdc"/>
+                            <constraint firstItem="fMX-ZV-xUJ" firstAttribute="top" secondItem="bpm-EY-LxJ" secondAttribute="top" constant="16" id="Vbd-mo-R0w"/>
+                            <constraint firstItem="Pim-GB-0Bg" firstAttribute="top" secondItem="Tu7-3B-lL9" secondAttribute="bottom" constant="16" id="WA7-QL-dBd"/>
+                            <constraint firstItem="bpm-EY-LxJ" firstAttribute="trailing" secondItem="fMX-ZV-xUJ" secondAttribute="trailing" constant="16" id="X0B-jy-YEW"/>
+                            <constraint firstItem="Tu7-3B-lL9" firstAttribute="leading" secondItem="bpm-EY-LxJ" secondAttribute="leading" constant="16" id="e4N-Su-ywV"/>
+                            <constraint firstItem="ccH-mf-n0h" firstAttribute="top" secondItem="Pim-GB-0Bg" secondAttribute="bottom" priority="999" constant="16" id="mR9-lQ-yuC"/>
+                            <constraint firstItem="bpm-EY-LxJ" firstAttribute="trailing" secondItem="Pim-GB-0Bg" secondAttribute="trailing" constant="16" id="pFD-M9-WAB"/>
+                            <constraint firstItem="Tu7-3B-lL9" firstAttribute="top" secondItem="bpm-EY-LxJ" secondAttribute="top" constant="16" id="qgb-SF-867"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bpm-EY-LxJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hugging, Compresion y Priority" id="o2p-04-abp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N3S-Se-DIJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2974" y="881"/>
         </scene>
         <!--Crear constraints por codigo-->
         <scene sceneID="9c9-gU-baR">
