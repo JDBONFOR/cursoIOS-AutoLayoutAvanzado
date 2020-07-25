@@ -32,14 +32,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2s3-LG-RsQ">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2s3-LG-RsQ">
                                 <rect key="frame" x="16" y="104" width="382" height="742"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo7-Ga-FDB">
-                                        <rect key="frame" x="0.0" y="0.0" width="382" height="742"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="371"/>
                                         <state key="normal" title="Constraints de posicion"/>
                                         <connections>
                                             <segue destination="cZi-eh-vH6" kind="show" id="hDv-52-lX5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtQ-Pt-j49">
+                                        <rect key="frame" x="0.0" y="371" width="382" height="371"/>
+                                        <state key="normal" title="Constraints de Altura y Anchura"/>
+                                        <connections>
+                                            <segue destination="ykm-Nr-ktR" kind="show" id="Sv0-LW-1x3"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -58,6 +65,36 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+        <!--Constraints de altura y anchura-->
+        <scene sceneID="SyY-j0-zoR">
+            <objects>
+                <viewController id="ykm-Nr-ktR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YER-ZL-Oug">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66V-an-BxS">
+                                <rect key="frame" x="32" y="120" width="200" height="300"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="PgJ-Un-paD"/>
+                                    <constraint firstAttribute="width" constant="200" id="vsm-88-Ht8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="66V-an-BxS" firstAttribute="top" secondItem="unu-8E-7zk" secondAttribute="top" constant="32" id="OtU-UN-eBr"/>
+                            <constraint firstItem="66V-an-BxS" firstAttribute="leading" secondItem="unu-8E-7zk" secondAttribute="leading" constant="32" id="sbz-xx-xt1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="unu-8E-7zk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Constraints de altura y anchura" id="mTr-bC-11U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98G-Q8-xNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901.44927536231887" y="448.66071428571428"/>
         </scene>
         <!--Constraints de posicion-->
         <scene sceneID="plt-9V-zwv">
