@@ -23,11 +23,11 @@
             </objects>
             <point key="canvasLocation" x="-638" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Autolayout avanzado-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutAvanzado" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Autolayout avanzado" id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutAvanzado" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,10 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo7-Ga-FDB">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="742"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Constraints de posicion"/>
+                                        <connections>
+                                            <segue destination="cZi-eh-vH6" kind="show" id="hDv-52-lX5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -51,10 +54,58 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zfw-eB-C3J"/>
+                    <navigationItem key="navigationItem" title="Autolayout Avanzado" id="zfw-eB-C3J"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+        <!--Constraints de posicion-->
+        <scene sceneID="plt-9V-zwv">
+            <objects>
+                <viewController title="Constraints de posicion" id="cZi-eh-vH6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3IC-DL-NWX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHn-jV-adl">
+                                <rect key="frame" x="0.0" y="88" width="414" height="374"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ro-aJ-SoD">
+                                        <rect key="frame" x="100" y="100" width="214" height="324"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="3Ro-aJ-SoD" firstAttribute="top" secondItem="FHn-jV-adl" secondAttribute="top" constant="100" id="6Xu-eV-hm0"/>
+                                    <constraint firstAttribute="bottom" secondItem="3Ro-aJ-SoD" secondAttribute="bottom" constant="-50" id="GJt-h8-hsU"/>
+                                    <constraint firstItem="3Ro-aJ-SoD" firstAttribute="leading" secondItem="FHn-jV-adl" secondAttribute="leading" constant="100" id="VWa-5y-vnX"/>
+                                    <constraint firstAttribute="trailing" secondItem="3Ro-aJ-SoD" secondAttribute="trailing" constant="100" id="yfV-Ne-tEW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSp-MY-KWu">
+                                <rect key="frame" x="16" y="478" width="68" height="400"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lSp-MY-KWu" firstAttribute="leading" secondItem="82D-CM-ehg" secondAttribute="leading" constant="16" id="04H-pU-BGj"/>
+                            <constraint firstItem="FHn-jV-adl" firstAttribute="leading" secondItem="82D-CM-ehg" secondAttribute="leading" id="2Zc-zS-hrH"/>
+                            <constraint firstItem="82D-CM-ehg" firstAttribute="bottom" secondItem="FHn-jV-adl" secondAttribute="bottom" constant="400" id="DHO-ik-qfV"/>
+                            <constraint firstItem="82D-CM-ehg" firstAttribute="trailing" secondItem="FHn-jV-adl" secondAttribute="trailing" id="JEy-8b-BIg"/>
+                            <constraint firstItem="lSp-MY-KWu" firstAttribute="bottom" secondItem="82D-CM-ehg" secondAttribute="bottom" constant="16" id="NW5-4w-COi"/>
+                            <constraint firstItem="3Ro-aJ-SoD" firstAttribute="leading" secondItem="lSp-MY-KWu" secondAttribute="trailing" constant="16" id="PyE-qY-Jh0"/>
+                            <constraint firstItem="lSp-MY-KWu" firstAttribute="top" secondItem="FHn-jV-adl" secondAttribute="bottom" constant="16" id="mZh-oH-dN8"/>
+                            <constraint firstItem="FHn-jV-adl" firstAttribute="top" secondItem="82D-CM-ehg" secondAttribute="top" id="nbE-tU-XA2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="82D-CM-ehg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Constraints de posición" id="nXl-Or-cKw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NlS-4m-9Mq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="898.55072463768124" y="-211.60714285714286"/>
         </scene>
     </scenes>
 </document>
