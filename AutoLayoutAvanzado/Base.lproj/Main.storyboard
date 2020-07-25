@@ -36,66 +36,73 @@
                                 <rect key="frame" x="16" y="104" width="382" height="742"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo7-Ga-FDB">
-                                        <rect key="frame" x="0.0" y="0.0" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="74"/>
                                         <state key="normal" title="Constraints de posicion"/>
                                         <connections>
                                             <segue destination="cZi-eh-vH6" kind="show" id="hDv-52-lX5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtQ-Pt-j49">
-                                        <rect key="frame" x="0.0" y="82.5" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="74" width="382" height="74.5"/>
                                         <state key="normal" title="Constraints de Altura y Anchura"/>
                                         <connections>
                                             <segue destination="ykm-Nr-ktR" kind="show" id="Sv0-LW-1x3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NK2-83-E3b">
-                                        <rect key="frame" x="0.0" y="165" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="148.5" width="382" height="74"/>
                                         <state key="normal" title="Modificar Constraints por codigo"/>
                                         <connections>
                                             <segue destination="pJz-NB-OJc" kind="show" id="mdU-n7-Mt2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDD-4J-ob7">
-                                        <rect key="frame" x="0.0" y="247.5" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="222.5" width="382" height="74.5"/>
                                         <state key="normal" title="Crear constraints por codigo"/>
                                         <connections>
                                             <segue destination="arE-mu-6fU" kind="show" id="55q-9Z-gDR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNp-re-uiw">
-                                        <rect key="frame" x="0.0" y="330" width="382" height="82"/>
+                                        <rect key="frame" x="0.0" y="297" width="382" height="74"/>
                                         <state key="normal" title="Constraints de igual entre elementos"/>
                                         <connections>
                                             <segue destination="id0-kb-fEj" kind="show" id="Dcf-o3-GTP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5b-Nd-Chg">
-                                        <rect key="frame" x="0.0" y="412" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="371" width="382" height="74"/>
                                         <state key="normal" title="Constraints de proporción"/>
                                         <connections>
                                             <segue destination="MO7-BS-R9j" kind="show" id="cal-ab-PnH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfj-JL-Z5B">
-                                        <rect key="frame" x="0.0" y="494.5" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="445" width="382" height="74.5"/>
                                         <state key="normal" title="Constraints de centrado"/>
                                         <connections>
                                             <segue destination="SuB-12-vTb" kind="show" id="OuB-Z0-Wcn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmp-WP-XKw">
-                                        <rect key="frame" x="0.0" y="577" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="519.5" width="382" height="74"/>
                                         <state key="normal" title="Constraints de Alineacion relativa"/>
                                         <connections>
                                             <segue destination="XoE-u6-hYC" kind="show" id="PBu-Uy-8yi"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrS-Ht-APL">
-                                        <rect key="frame" x="0.0" y="659.5" width="382" height="82.5"/>
+                                        <rect key="frame" x="0.0" y="593.5" width="382" height="74.5"/>
                                         <state key="normal" title="Hugging, Compresion y Priority"/>
                                         <connections>
                                             <segue destination="p7j-hi-0j3" kind="show" id="R2F-Au-KtE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEk-Hw-9ip">
+                                        <rect key="frame" x="0.0" y="668" width="382" height="74"/>
+                                        <state key="normal" title="Trait Variation"/>
+                                        <connections>
+                                            <segue destination="YVm-hF-JJq" kind="show" id="sJO-Op-GIz"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -312,6 +319,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3S-Se-DIJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2974" y="881"/>
+        </scene>
+        <!--Trait variation-->
+        <scene sceneID="rM3-Ar-Mpw">
+            <objects>
+                <viewController title="Trait variation" id="YVm-hF-JJq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O29-bm-51u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="C6I-ag-Ccy">
+                                <rect key="frame" x="16" y="104" width="382" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Kj-ac-LIS">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="150"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg4-IS-f7w">
+                                        <rect key="frame" x="0.0" y="150" width="382" height="150"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="r8q-Tc-Rj6">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="600"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=regular" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="C6I-ag-Ccy" firstAttribute="top" secondItem="qUx-tb-JJb" secondAttribute="top" constant="16" id="5y3-H6-DPf"/>
+                            <constraint firstItem="C6I-ag-Ccy" firstAttribute="leading" secondItem="qUx-tb-JJb" secondAttribute="leading" constant="16" id="NIi-TS-VN7"/>
+                            <constraint firstItem="qUx-tb-JJb" firstAttribute="trailing" secondItem="C6I-ag-Ccy" secondAttribute="trailing" constant="16" id="sgc-Gx-tPk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qUx-tb-JJb"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Trait variation" id="yhd-eF-hzK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CnG-zj-coO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3703" y="881"/>
         </scene>
         <!--Crear constraints por codigo-->
         <scene sceneID="9c9-gU-baR">
