@@ -15,6 +15,7 @@
 		0E19BD2724CCE50B001B0F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E19BD2524CCE50B001B0F62 /* LaunchScreen.storyboard */; };
 		0E19BD3224CCE50B001B0F62 /* AutoLayoutAvanzadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E19BD3124CCE50B001B0F62 /* AutoLayoutAvanzadoTests.swift */; };
 		0E19BD3D24CCE50B001B0F62 /* AutoLayoutAvanzadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E19BD3C24CCE50B001B0F62 /* AutoLayoutAvanzadoUITests.swift */; };
+		0E19BD4B24CCEB62001B0F62 /* ModifyConstratinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E19BD4A24CCEB62001B0F62 /* ModifyConstratinsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0E19BD3824CCE50B001B0F62 /* AutoLayoutAvanzadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutAvanzadoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E19BD3C24CCE50B001B0F62 /* AutoLayoutAvanzadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutAvanzadoUITests.swift; sourceTree = "<group>"; };
 		0E19BD3E24CCE50B001B0F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E19BD4A24CCEB62001B0F62 /* ModifyConstratinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyConstratinsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0E19BD1A24CCE507001B0F62 /* AppDelegate.swift */,
 				0E19BD1C24CCE507001B0F62 /* SceneDelegate.swift */,
 				0E19BD1E24CCE507001B0F62 /* ViewController.swift */,
+				0E19BD4A24CCEB62001B0F62 /* ModifyConstratinsViewController.swift */,
 				0E19BD2024CCE507001B0F62 /* Main.storyboard */,
 				0E19BD2324CCE50B001B0F62 /* Assets.xcassets */,
 				0E19BD2524CCE50B001B0F62 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				0E19BD1F24CCE507001B0F62 /* ViewController.swift in Sources */,
 				0E19BD1B24CCE507001B0F62 /* AppDelegate.swift in Sources */,
 				0E19BD1D24CCE507001B0F62 /* SceneDelegate.swift in Sources */,
+				0E19BD4B24CCEB62001B0F62 /* ModifyConstratinsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
